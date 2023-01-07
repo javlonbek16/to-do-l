@@ -38,7 +38,7 @@ function showTodo(filter) {
     });
   }
 
-  ftaskBox.innerHTML = liTag || `<span>You don't have any task here</span>`;
+  taskBox.innerHTML = liTag || `<span>You don't have any task here</span>`;
   let checkTask = taskBox.querySelectorAll(".task");
   !checkTask.length
     ? clearAll.classList.remove("active")
